@@ -1,0 +1,15 @@
+{
+  "skills": {
+    "directory": "skills",
+    "autoActivate": true
+  },
+  "instructions": [
+    "Read AGENTS.md at the root of this repository for available skills and activation rules.",
+    "When any trigger keyword matches the user's request, read the full SKILL.md before responding.",
+    "Follow TDD-first, Clean Architecture, and YAGNI/KISS principles from the skills.",
+    "Preserve Portuguese technical terminology from the original PDFs.",
+    "Never modify production code without a failing test first (Iron Law 1).",
+    "Domain layer never imports infrastructure (Iron Law 2).",
+    "Functions max 15 lines, Classes max 200 lines (YAGNI+KISS)."
+  ]
+}
